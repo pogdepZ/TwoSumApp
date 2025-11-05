@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 🧮 Sum Calculator App (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ứng dụng **Sum Calculator** cho phép người dùng nhập vào hai số và xem kết quả tổng được tính toán.  
+Dự án này được xây dựng để thực hành các khái niệm cơ bản của **React**, bao gồm:
 
-## Available Scripts
+- Quản lý trạng thái với `useState`
+- Controlled Components
+- Xử lý sự kiện
+- Hiển thị UI tương tác
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Mục tiêu dự án
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Hiểu cách xây dựng giao diện React dựa trên Component.
+- Sử dụng `useState` để quản lý dữ liệu người dùng.
+- Xử lý validation (kiểm tra dữ liệu nhập).
+- Render UI động theo trạng thái ứng dụng.
+- Triển khai dự án lên môi trường hosting công khai.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧩 Tính năng
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Tính năng | Mô tả |
+|----------|-------|
+| Nhập hai số | Người dùng có thể nhập giá trị số bất kỳ |
+| Nút "Calculate Sum" | Tính tổng hai số khi bấm |
+| Hiển thị kết quả | Hiển thị tổng nếu hợp lệ |
+| Kiểm tra lỗi | Báo lỗi nếu bỏ trống hoặc nhập sai định dạng |
+| Giao diện với TailwindCSS | UI rõ ràng, dễ dùng |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏗️ Công nghệ sử dụng
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Công nghệ | Vai trò |
+|---------|--------|
+| React.js | Xây dựng UI theo mô hình component |
+| JavaScript (ES6+) | Xử lý logic ứng dụng |
+| HTML & CSS | Cấu trúc và trang trí giao diện |
+| TailwindCSS | Tối ưu design, viết CSS nhanh gọn |
+| Create React App | Công cụ khởi tạo và chạy ứng dụng |
