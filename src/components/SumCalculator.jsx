@@ -73,7 +73,7 @@ export default function SumCalculator() {
             <InputField
               value={num1}
               valid={valid1}
-              placeholder="e.g., 10"
+              placeholder="Example: 10"
               onChange={(value) => handleInput(value, setNum1, setValid1)}
             />
           </div>
@@ -84,7 +84,7 @@ export default function SumCalculator() {
             <InputField
               value={num2}
               valid={valid2}
-              placeholder="e.g., 20"
+              placeholder="Example: 20"
               onChange={(value) => handleInput(value, setNum2, setValid2)}
             />
           </div>
